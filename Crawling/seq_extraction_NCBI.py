@@ -6,6 +6,7 @@ import pandas as pd
 from xlsxwriter import Workbook
 from string import digits
 import time
+
 a=pd.read_excel("All-OV_MT100_seq.xlsx")
 b=a.drop_duplicates(['Gene'])
 genelist=b['Gene'].tolist()
