@@ -78,4 +78,3 @@ for ll in os.listdir(os.curdir):
         sheet = pd.read_csv(ll,delimiter='\t')
         sheet.to_excel(writer,sheet_name=f"{ll.split('.')[0]}_{ll.split('.')[-2]}",index=False)
 writer.save()
-
