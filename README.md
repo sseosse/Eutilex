@@ -1,5 +1,3 @@
 # Description the repositories
----
 ## index
----
-#### - Formatting 
+#### Formatting 
