@@ -8,4 +8,4 @@ The scripts for analyzing NGS data.
 * #### Visualization
 The scripts for visualizing data.
 * #### bcbio
-The scripts for running _bcbio_
+The scripts for running _bcbio_.
