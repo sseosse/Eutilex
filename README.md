@@ -1,11 +1,11 @@
 # Description the repositories
-* #### HLAtyping 
-The scripts for HLA typing from RNA fastq.
+* #### Crawling
+The scripts for crawling from web sites.
 * #### NGS
 The scripts for analyzing NGS data.
+* #### Running_packages
+The scripts for running packages
 * #### Visualization
 The scripts for visualizing data.
-* #### bcbio
-The scripts for running _bcbio_.
 * #### pandas
 The scripts for using _pandas_.
