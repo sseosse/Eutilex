@@ -1,5 +1,7 @@
 import os,sys, fileinput, glob
 
+thread = "60"
+
 working_path = "/extradisk/bcbio_working"
 
 def Runbcbio(sample_name):
@@ -9,7 +11,7 @@ def Runbcbio(sample_name):
         os.chdir(f"{working_path}/work")
         os.system(f"mkdir {sample_name}_work")
         os.chdir(f"{sample_name}_work")
-        cmd=f"bcbio_nextgen.py ../../config/{sample_name}.yaml -n 60"
+        cmd=f"bcbio_nextgen.py ../../config/{sample_name}.yaml -n {thread}"
         print(cmd)
         os.system(cmd)
 
