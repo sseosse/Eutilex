@@ -71,4 +71,3 @@ for file in glob.glob(f"{srd_path}*_1.fastq.gz"):
     sample_name = os.path.basename(file)
     sample_name_spl = sample_name.split("-RNA")[0]
     Main(file)
-
