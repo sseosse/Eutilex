@@ -1,4 +1,3 @@
-
 import glob, os, sys                                                                           
 import threading, time
 ###############################################################################Variable table
