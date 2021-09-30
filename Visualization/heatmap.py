@@ -3,6 +3,7 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
+
 mpl.use('TkAgg')
 data=pd.read_csv("Panel_AFPmin211111.csv",index_col=0)
 sns.set(font_scale=0.6)
