@@ -4,7 +4,7 @@ The scripts for crawling from web sites.
 * #### NGS
 The scripts for analyzing NGS data.
 * #### Running_packages
-The scripts for running packages
+The scripts for running packages.
 * #### Visualization
 The scripts for visualizing data.
 * #### pandas
