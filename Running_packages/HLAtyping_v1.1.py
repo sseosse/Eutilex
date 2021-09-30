@@ -20,7 +20,7 @@ def HLAminer(file):
     time.sleep(0.5)
     os.chdir(main_path+'HLAminer_v1.4/data')
     if not "HLAminer_HPTASR.log" in os.listdir(sample_path+sample_name_spl+"/"+dir_list[3]):
-        time.sleep(3600)
+        time.sleep(3600) #for waiting WES
         sample_name2 = sample_name.replace("_1.", "_2.")
         #Making link raw data
         cmd = f'ln -s {srd_path}{sample_name} .'
