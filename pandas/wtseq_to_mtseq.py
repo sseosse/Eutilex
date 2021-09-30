@@ -1,7 +1,6 @@
 import pandas as pd
 
-#a=pd.read_excel("All-OV_MT100_ExtSeq.xlsx")
-a=pd.read_excel("OV_MT100_ExtSeq.xlsx")
+a=pd.read_excel("All-OV_MT100_ExtSeq.xlsx")
 a.insert(0,"sequence_name","")
 for i in range(len(a)):
     a.loc[i,"sequence_name"]=f"seqeunce_{i}"
@@ -24,4 +23,5 @@ for z in range(len(a)):
             aa=a.iloc[z]['MT Sequence AA'][int(pos)-14:int(pos)+13]
         a.loc[z,'MT Sequence AA 27']=aa
         a.loc[z,'MT Sequence AA 27']=a.loc[z,'MT Sequence AA 27'].split("*")[0]
-a.to_excel("WTtoMT2.xlsx",index=0)
+
+a.to_excel("WTtoMT.xlsx",index=0)

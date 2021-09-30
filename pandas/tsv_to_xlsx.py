@@ -1,6 +1,5 @@
 import glob, os
 import pandas as pd
-import openpyxl
 
 for file in glob.glob("/home/oem/Desktop/tsv/*.tsv"):
     tsv_name=os.path.basename(file)

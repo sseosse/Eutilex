@@ -28,7 +28,7 @@ for k in range(len(prePanel)):
 for m in finPanel.columns:
     for n in finPanel.index:
         if m+"|"+n in dic:
-            finPanel.loc[n,m]=str(dic[m+"|"+n][2])
+            finPanel.loc[n,m]=str(dic[m+"|"+n][2]) # 0 : peptide, 1 : Rate, 2 : AF
         else:
             finPanel.loc[n,m]="NaN"
 
