@@ -9,5 +9,5 @@ The scripts for running packages.
 The scripts for visualizing data.
 * #### pandas
 The scripts for using _pandas_.
-* #### pandas
+* #### Analysis
 The scripts for handling various results.
